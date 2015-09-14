@@ -24,7 +24,7 @@ We pin all our dependencies (including dependencies of dependencies) to an exact
 virtualenv
 ----------
 
-In order to install multiple version of the same dependency for different projects, we use `virtualenv <https://virtualenv.pypa.io/en/latest/>`__.
+In order to install multiple version of the same dependency for different projects, we use [virtualenv](https://virtualenv.pypa.io/en/latest/).
 
 Python Packages
 ---------------

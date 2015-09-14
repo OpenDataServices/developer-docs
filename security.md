@@ -18,7 +18,7 @@ You should make sure that
   web directory)
 
 Fetching Remote Files
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 Working with Open Data often involves fetching data from arbitrary URLs. You
 should check

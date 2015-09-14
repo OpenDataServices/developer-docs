@@ -73,10 +73,10 @@ External Testing Services
 
 We use the following external services to test our code in various ways:
 
-* `Travis <https://travis-ci.org/>`__ - runs unit tests every time a commit is made
-* `Coveralls <https://coveralls.io/>`__ - checks the coverage of those unit tests
-* `Requires.io <https://requires.io>`__ (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date 
-* `Landscape <https://landscape.io/>`__ (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
+* [Travis](https://travis-ci.org/) - runs unit tests every time a commit is made
+* [Coveralls](https://coveralls.io/) - checks the coverage of those unit tests
+* [Requires.io](https://requires.io) (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date 
+* [Landscape](https://landscape.io/) (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
 
 A public link to the results of each of these service can be found at the top of the README of each covered project.
 
@@ -88,8 +88,7 @@ We try to make sensible choices based on past experience of working on
 projects with multiple domains.
 Preferably we should be using subdomains.
 
-Why subdomains?
-^^^^^^^^^^^^^^^
+### Why subdomains?
 
 When it comes to putting our work on the web we have a choice of
 using subdirectories, subdomains, or a new domain.

@@ -25,5 +25,5 @@ BaseX is an XML database, with a cross platform GUI. It's useful for running XQu
 Favicons
 --------
 
-| http://realfavicongenerator.net/
-| Generate the favicon pictures and HTML code that work on all major browsers and platforms
+http://realfavicongenerator.net/
+Generate the favicon pictures and HTML code that work on all major browsers and platforms
