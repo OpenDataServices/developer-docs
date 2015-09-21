@@ -38,6 +38,10 @@ Open Data Services code to be there.
 ### 2. All code should have a lead person identified
 
 This makes it easy for others to work out who they might need to talk to.
+This could be a project manager who does not actually code themselves.
+In that case a code lead, who is ultimately responsible for merges, etc,
+should be indentified. This responsibility may be delegated, but generally 
+they are the only one to push to important branches such as master/live.
 
 ### 3. Our projects/code should be appropriately branded
 
