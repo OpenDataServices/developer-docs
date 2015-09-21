@@ -4,7 +4,7 @@ Useful tools
 Wget
 ----
 
-Wget is a common tool used for downloading files, including Open Data Services data.
+Wget is a common tool used for downloading files.
 
 **Issues**
 
