@@ -41,18 +41,6 @@ This makes it easy for others to work out who they might need to talk to.
 
 ### 3. Our projects/code should be appropriately branded
 
-
-### Our code/projects should be in version control and present links to issue trackers and source code
-
-Usually this would be in our [GitHub account](https://github.com/opendataservices/).
-
-Code in development, where possible should also be in our GitHub
-account.
-
-If code is speculative, potentially sensitive, or has just not been
-given the green light our current practice is to build it in private or
-in personal developers own online repositories (GitHub, BitBucket, etc).
-
 ### 4. Each piece of code should have a document, a roadmap, and estimate of resources, and a licence
 
 Generally we're probably using a open source or free software compatible
@@ -187,3 +175,14 @@ For example, linking into webhooks or services such as Travis
 
 Can it handle unicode correctly?
 Does it need to handle translations and display text in differnet scripts?
+
+### 23. Our code/projects should be in version control and present links to issue trackers and source code
+
+Usually this would be in our [GitHub account](https://github.com/opendataservices/).
+
+Code in development, where possible should also be in our GitHub
+account.
+
+If code is speculative, potentially sensitive, or has just not been
+given the green light our current practice is to build it in private or
+in personal developers own online repositories (GitHub, BitBucket, etc).
