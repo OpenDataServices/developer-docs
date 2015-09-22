@@ -4,17 +4,27 @@ Notes about Open Data Services Python Code
 Python2 vs Python3
 ------------------
 
-Currently all Open Data Services code is Python 2, and in general isn't Python 3. However, we have started some Python 3 features (e.g. the Python 3 print statement) in new code to make a future transition easier.
+We use Python 3 for new applications, and support Python 2 and 3 for libraries. We still have some legacy Python 2 only code. 
+
+Python Minor Versions
+---------------------
+
+Where we support Python 2 we support only Python 2.7. Where we support Python 3, we generally support Python 3.3+. Generally the version of Python 3 we deploy with is the version available by default on that platform - generally this is Ubuntu LTS, so Python 3.4, but some of our travis-only code (e.g. schema tests) runs on 3.5.
+
+We test libraries against all the minor versions they support, and our application code against the version it will be deployed with.
 
 Common Dependencies
 -------------------
 
 A lot of our software has dependencies in common:
 
-* lxml, a fast XML toolkit that uses C libraries
-* Flask as the web framework
-* Jinja as the templating engine (including for use with Sphinx)
-* py.test - a no-boilerplate testing framework (although some code also uses nosetest and plain unit test)
+* Django
+* py.test - a no-boilerplate testing framework
+
+Coding style
+------------
+
+Mostly this is PEP8, and the additional suggestions that Flake8 provides. Some projects e.g. Cove are automatically tested with flake8 by Travis.  We have a few exceptions, mostly inherited from the Django project, which are declared in setup.cfg, e.g. https://github.com/OpenDataServices/cove/blob/master/setup.cfg
 
 Pinned Dependencies
 -------------------
@@ -29,4 +39,4 @@ In order to install multiple version of the same dependency for different projec
 Python Packages
 ---------------
 
-Currently most of our Python code is standalone scripts rather than python packages (ie. with a setup.py and installable with pip). 
+Our libraries like flatten-tool build as Python packages, but none of these are currently on PYPI. Where other code has dependencies on these we use pip's git support to point at a particular commit.
