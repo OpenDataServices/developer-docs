@@ -9,7 +9,9 @@ We use Python 3 for new applications, and support Python 2 and 3 for libraries. 
 Python Minor Versions
 ---------------------
 
-Where we support Python 2 we support only Python 2.7. Where we support Python 3, we generally support Python 3.3+. Generally the version of Python 3 we actually deploy with is determined by the version available in the latest Ubuntu LTS, currently 3.4.
+Where we support Python 2 we support only Python 2.7. Where we support Python 3, we generally support Python 3.3+. Generally the version of Python 3 we deploy with is the version available by default on that platform - generally this is Ubuntu LTS, so Python 3.4, but some of our travis-only code (e.g. schema tests) runs on 3.5.
+
+We test libraries against all the minor versions they support, and our application code against the version it will be deployed with.
 
 Common Dependencies
 -------------------
