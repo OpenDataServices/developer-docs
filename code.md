@@ -8,7 +8,7 @@ Open Data Services Code is defined as code that the Open Data Services Team look
 
 This may be custom code that has been written specifically to perform
 tasks for Open Data Services, or it could be 'off the shelf' code that we need to
-maintain and update in order for it run smoothly. Some of it will be
+maintain and update in order for it to run smoothly. Some of it will be
 standalone applications, some of it could be customisations to other
 people's projects/code.
 
@@ -117,11 +117,11 @@ Branding
 --------
 
 Open Data Services has a coherent policy on branding, but often our work 
-is done with and for other people, where there brand needs to be taken into
+is done with and for other people, where their brand needs to be taken into
 account. 
 
 Projects should try to establish branding requirements and identify existing
-brand assets early in a projects lifecycle.
+brand assets early in a project's lifecycle.
 
 Communicating
 -------------
