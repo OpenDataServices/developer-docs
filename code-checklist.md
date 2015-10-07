@@ -35,6 +35,14 @@ There may be rare instances of code that have yet to make it into the
 GitHub organisation account, but it is our desire and intention for all
 Open Data Services code to be there.
 
+When we are working with a clients code, we should always maintain forks in our organisation, so that people can easily find "our code".
+
+Further this enables us to set up test/build services like requires.io 
+and Travis without badgering people for permissions and allows us to 
+deploy code to our servers from repositories we control ( the risk of 
+malicious activity is relatively small here, but there's a very real 
+risk of people accidentally breaking stuff!)
+
 ### 2. All code should have a lead person identified
 
 This makes it easy for others to work out who they might need to talk to.
