@@ -190,3 +190,9 @@ account.
 If code is speculative, potentially sensitive, or has just not been
 given the green light our current practice is to build it in private or
 in personal developers own online repositories (GitHub, BitBucket, etc).
+
+### 24. Does our code perform under load?
+
+We should know that our code can handle expected load / file sizes - 
+and fails gracefully e.g. for large files.
+ 
