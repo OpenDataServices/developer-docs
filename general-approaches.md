@@ -7,6 +7,10 @@ We are influenced by:
 * DRY (Don't Repeat Yourself), and similarly having a 
 SSOT (single Source of Truth)
 
-Other possibilities / aspirations:
+## Other possibilities / aspirations:
 
-* Agile
+### Agile 
+
+We don't currently do this fully, because of our small team size 
+amongst other reasons. 
+
