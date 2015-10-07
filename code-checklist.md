@@ -196,3 +196,7 @@ in personal developers own online repositories (GitHub, BitBucket, etc).
 We should know that our code can handle expected load / file sizes - 
 and fails gracefully e.g. for large files.
  
+### 25. Is our code accessible
+
+Wherever possible, we should support browsers without javascript  
+See: http://kryogenix.org/code/browser/everyonehasjs.html)
