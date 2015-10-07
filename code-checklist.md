@@ -208,3 +208,5 @@ and fails gracefully e.g. for large files.
 
 Wherever possible, we should support browsers without javascript  
 See: http://kryogenix.org/code/browser/everyonehasjs.html)
+
+### 26. All code should be seen/understood by more than one person
