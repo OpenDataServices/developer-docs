@@ -6,6 +6,11 @@ Python2 vs Python3
 
 We use Python 3 for new applications, and support Python 2 and 3 for libraries. We still have some legacy Python 2 only code. 
 
+### Transition to Python 3 
+
+The plan is to transition to Python 3 next time we have a major 
+development sprint on any of the Python 2 projects.
+
 Python Minor Versions
 ---------------------
 
