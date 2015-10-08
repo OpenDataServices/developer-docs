@@ -1,5 +1,19 @@
 # Tests
 
+## flake8
+
+flake8 will test the quality of your python code. It should run before 
+each commit.
+You can set this up as a git hook so that it is run automatically on 
+git commit.
+
+### Set up flake8 to run on every git commit:
+
+.. code:: bash
+
+    flake8 --install-hook
+
+By default this still opens your text editor to make the commit message, and prints the flake8 errors to STDOUT where you might miss them. Only show the flake8 errors and not open the editor (until the flake8 errors are fixed), set ``STRICT`` to ``True`` in ``.git/hooks/pre-commit``.
 
 ## pytest
 

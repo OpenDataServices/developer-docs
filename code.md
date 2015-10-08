@@ -2,7 +2,7 @@ Open Data Services Code
 =======================
 
 What is Open Data Services Code?
-------------------
+--------------------------------
 
 Open Data Services Code is defined as code that the Open Data Services Team look after directly.
 
@@ -55,6 +55,12 @@ to make sure our code is:
 
 The following lays out some detail about how the Open Data Services Team has
 chosen to work in order to achieve this.
+
+Our code should be public...
+----------------------------
+
+... and our development processes should be public. We use GitHub public
+repositories to help us achieve this.
 
 GitHub
 ------
