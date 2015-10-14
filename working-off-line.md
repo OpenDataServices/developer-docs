@@ -2,7 +2,9 @@
 
 ## Grab GitHub issues to work offline e.g.
 
-    wget -m --no-parent  -e robots=off "https://github.com/OpenDataServices/developer-docs/issues/"
+```
+wget -m --no-parent  -e robots=off "https://github.com/OpenDataServices/developer-docs/issues/"
+```
 
 ## Google Drive
 
@@ -14,4 +16,4 @@ to work off-line with documents, spreadsheets, etc
 GitHub issues can be grabbed (see above)
 
 We use Content Delivery Networks quite often for style and layout (e.g.
-Bootstrap), sometimes these can be apain off-line.
+Bootstrap), sometimes these can be a pain off-line.
