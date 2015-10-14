@@ -1,10 +1,10 @@
 # Front End Development
 
 We don't do very sophisticated frontend stuff at the moment. We tend to 
-rely on popular framewors such as Bootstrap etc. T
+rely on popular framewors such as Bootstrap etc.
 
 We tend to use HTML5, plain CSS, and Javascript everywhere, and don't 
-have any sort of transpilation (or for the most sort any sort of build) 
+have any sort of transpilation (or for the most part any sort of build) 
 setup.
 
 Our use of Javascript is generally fairly oldschool progressive 
