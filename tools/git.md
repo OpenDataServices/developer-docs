@@ -28,3 +28,10 @@ etc.
 
 See: https://github.com/dmnd/git-diff-blame and http://stackoverflow.com/questions/5098256/git-blame-prior-commits
 
+### tig
+
+tig is a curses (interactive CLI) git history browser - it's quite a nice middleground between the basic git commands, and firing up some sort of gui.
+
+`tig --all` is particularly useful, which shows all commits, not just ones in the branch you're currently on.
+
+
