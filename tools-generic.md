@@ -17,6 +17,19 @@ Wget is a common tool used for downloading files.
 
 * Older versions of Wget (e.g. 1.13.4) do not timeout properly if the connection hangs during an SSL/TLS certificate handshake. Additionally, even in the newest versions of Wget, timeout behaviour varies depending on which SSL/TLS library is linked against. For timeouts during an SSL/TLS handshake, the flag ``--read-timeout`` is needed if Wget is linked against OpenSSL, whereas ``--connect-timeout`` is needed if Wget is linked against GNUTLS.
 
+
+HTTPie
+------
+
+A tool for making HTTP web requests. Whilst wget is designed for the "download this file case" HTTPie is useful for interacting quickly and easily with APIs. It has a nice syntax base on the http verbs, and makes adding headers easier. e.g.
+
+```
+http post http://requestb.in/17dp02s1 fizz=b X-MyHeader:some_value
+```
+
+It shows HTTP headers by default, and uses syntax highlighting for these and the content (where supported). In the case of JSON responses, it will automatically pretty print them too to make sure they're readable.
+
+
 BaseX
 -----
 
