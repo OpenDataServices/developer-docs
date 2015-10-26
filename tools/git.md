@@ -23,6 +23,10 @@ we want to collect - e.g. the different ways of identifying a commit
 - tags, branches, HEAD~2, hash, short hash 0 for use with the git diff 
 etc.
 
+## Flow chart of steps if you mess up git commits
+
+http://justinhileman.info/article/git-pretty/
+
 ### git blame a diff
 
 See: https://github.com/dmnd/git-diff-blame and http://stackoverflow.com/questions/5098256/git-blame-prior-commits
