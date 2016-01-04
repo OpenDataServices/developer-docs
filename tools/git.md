@@ -13,6 +13,8 @@ We use #issueno to reference a GitHub issue from a commit (or OpenDataServices/r
 
 In general having temporary commits on temporary branches is better than using git stash. It's harder to lose your work this way, and they can also be pushed to the server. `tmp-some_name` is our current ad hoc naming convention for temporary branches. If you have a temporary commit you can update it using  `git commit --amend -a --date="`date``
 
+We tend to work on branches within the repo in the OpenDataServices (or other relevant repository), rather than in personal forks, as this allows us all to take advantage of the same TravisCI setup etc. (Obviously external contributors will generally not have permissions for this, so will use their personal forks instead.).
+
 ## git tips
 
 Although we expect our devs to have a good understanding/experience of 
