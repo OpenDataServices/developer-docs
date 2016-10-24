@@ -9,10 +9,14 @@ In general each repository has:
 
 More specific information about the branches in a repository should be in the CONTRIBUTING.md file in each repository. Merges should be performed or overseen by the person listed in CONTRIBUTING.md.
 
+### Issues
 We use #issueno to reference a GitHub issue from a commit (or OpenDataServices/reponame#issueno to reference an issue from another repository). Where a commit relates to one issue we use [#issueno] at the start of the commit messages to make it easier to scan by eye what issues commits relate to. We generally don't use "fixes #issueno" in order to leave closing issues until it's been checked that they're "Done"
 
+
+### Temporary Branches
 In general having temporary commits on temporary branches is better than using git stash. It's harder to lose your work this way, and they can also be pushed to the server. `tmp-some_name` is our current ad hoc naming convention for temporary branches. If you have a temporary commit you can update it using  `git commit --amend -a --date="`date``
 
+### Branches or Forks?
 We tend to work on branches within the repo in the OpenDataServices (or other relevant repository), rather than in personal forks, as this allows us all to take advantage of the same TravisCI setup etc. (Obviously external contributors will generally not have permissions for this, so will use their personal forks instead.).
 
 ## git tips
