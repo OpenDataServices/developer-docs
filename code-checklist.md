@@ -220,3 +220,5 @@ Wherever possible, we should support browsers without javascript
 See: http://kryogenix.org/code/browser/everyonehasjs.html)
 
 ### 26. All code should be seen/understood by more than one person
+
+At worst this should involve someone extra checking of all pull requests and newly commited code, even if the code if written by the "owner" of that repo.
