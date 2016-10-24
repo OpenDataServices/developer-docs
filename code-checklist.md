@@ -24,6 +24,12 @@ The creation of this checklist allows us to:
 Each code repository in our [GitHub account](https://github.com/opendataservices/) 
 should have a CHECKLIST.rst file
 
+Before you start
+----------------
+
+Generally, our code should be public, as should  our development processes.
+We use GitHub public repositories to help us achieve this.
+
 The checklist
 -------------
 
@@ -31,7 +37,7 @@ The checklist
 
 Generally Open Data Services Code can be found here: https://github.com/opendataservices
 
-There may be rare instances of code that have yet to make it into the
+However, we often do open development for our customers in thier GitHub organisations as well. There may be rare instances of code that have yet to make it into the
 GitHub organisation account, but it is our desire and intention for all
 Open Data Services code to be there.
 
