@@ -87,7 +87,7 @@ External Testing Services
 
 We use the following external services to test our code in various ways:
 
-* [Travis](https://travis-ci.org/) - runs unit tests every time a commit is made
+* [Travis](https://travis-ci.org/) - runs unit tests every time a commit is made (see also: https://travis-ci.org/OpenDataServices )
 * [Coveralls](https://coveralls.io/) - checks the coverage of those unit tests
 * [Requires.io](https://requires.io) (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date 
 * [Landscape](https://landscape.io/) (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
