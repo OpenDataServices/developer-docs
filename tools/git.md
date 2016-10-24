@@ -29,6 +29,16 @@ we want to collect - e.g. the different ways of identifying a commit
 - tags, branches, HEAD~2, hash, short hash 0 for use with the git diff 
 etc.
 
+### Push to 2 remotes at once 
+
+http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes#answer-14290145
+
+`git remote set-url --add`
+
+### git blame a diff
+
+See https://github.com/dmnd/git-diff-blame and http://stackoverflow.com/questions/5098256/git-blame-prior-commits
+
 ## Flow chart of steps if you mess up git commits
 
 http://justinhileman.info/article/git-pretty/
