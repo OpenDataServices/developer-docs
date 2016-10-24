@@ -139,6 +139,10 @@ This could be by:
 
 - email
 
+In part this is to make sure that we can communicate significant changes 
+to the user of our code. A case to consider would be a change to an API 
+that we maintain for example.
+
 ### 14. Users should be able to communicate with us about our code
 
 There should be pathways for
