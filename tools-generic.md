@@ -40,3 +40,10 @@ Favicons
 
 http://realfavicongenerator.net/
 Generate the favicon pictures and HTML code that work on all major browsers and platforms
+
+General Programming
+-------------------
+```
+http://hyperpolyglot.org/
+```
+Useful resource for switching between programming languages
