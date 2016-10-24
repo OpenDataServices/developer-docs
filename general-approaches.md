@@ -13,3 +13,6 @@ We are influenced by:
 We don't currently do this fully, because of our small team size 
 amongst other reasons. 
 
+## We also like
+
+README driven development: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
