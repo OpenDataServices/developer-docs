@@ -15,6 +15,6 @@ We practice (small-a) agile software development, drawing on a range of techniqu
 
 We hold regular retrospectives to review our work and our use of agile techniques and to look for ways in which we can improve.
 
-# User-centric design
+## User-centric design
 
 We recognise that all of our software and standards will be used by humans, and therefore we regularly engage in user research to discover the needs of those who will use the software that we're producing. The way in which we use this knowledge will vary depending on the project, but we will often refer back to the user stories that we're attempting to satisfy during development. 
