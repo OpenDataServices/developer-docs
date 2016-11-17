@@ -6,6 +6,8 @@
 wget -m --no-parent  -e robots=off "https://github.com/OpenDataServices/developer-docs/issues/"
 ```
 
+NOTE: This will only fetch the first page of issues.
+
 The best way to view these is probably with a local instance of apache, e.g.:
 ```
 cd github.com
