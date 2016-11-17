@@ -18,3 +18,7 @@ We hold regular retrospectives to review our work and our use of agile technique
 ## User-centric design
 
 We recognise that all of our software and standards will be used by humans, and therefore we regularly engage in user research to discover the needs of those who will use the software that we're producing. The way in which we use this knowledge will vary depending on the project, but we will often refer back to the user stories that we're attempting to satisfy during development. 
+
+## We also like
+
+README driven development: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html

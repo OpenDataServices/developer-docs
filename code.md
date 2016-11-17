@@ -10,7 +10,8 @@ This may be custom code that has been written specifically to perform
 tasks for Open Data Services, or it could be 'off the shelf' code that we need to
 maintain and update in order for it to run smoothly. Some of it will be
 standalone applications, some of it could be customisations to other
-people's projects/code.
+people's projects/code. Increasingly, we often create code for our customers in 
+their own GitHub organisation.
 
 Some code directly powers projects/web applications. Other code may be
 command line tools that, for example, process data locally, or that
@@ -29,9 +30,16 @@ So which code are we talking about?
 Generally Open Data Services Code can be found here:
 https://github.com/opendataservices
 
+We are also responsible for all the code at:
+https://github.com/ThreeSixtyGiving
+https://github.com/TalkAboutLocal
+
+We are heavily involved in most of the code at:
+https://github.com/open-contracting
+
 There may be rare instances of code that have yet to make it into the
-GitHub organisation account, but it is our desire and intention for all
-Open Data Services code to be there.
+relevant GitHub organisation account, but it is our desire and intention 
+for all Open Data Services code to be there.
 
 Code Checklist
 --------------
@@ -79,7 +87,7 @@ External Testing Services
 
 We use the following external services to test our code in various ways:
 
-* [Travis](https://travis-ci.org/) - runs unit tests every time a commit is made
+* [Travis](https://travis-ci.org/) - runs unit tests every time a commit is made (see also: https://travis-ci.org/OpenDataServices )
 * [Coveralls](https://coveralls.io/) - checks the coverage of those unit tests
 * [Requires.io](https://requires.io) (Python specific) - tests to see whether the Python moudles listed in requirements.txt are up to date 
 * [Landscape](https://landscape.io/) (Python specific) - calculates the quality of the code using static analysis, and tracks this over time
