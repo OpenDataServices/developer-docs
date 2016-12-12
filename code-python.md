@@ -31,6 +31,8 @@ Pinned Dependencies
 
 We pin all our dependencies (including dependencies of dependencies) to an exact version in requirements.txt. This makes deployment more deterministic and reproducible. It also means that we can use requires.io to track out of date dependencies.
 
+Sometime we create a requirements.in to list the top level dependencies, with only the known version constraints. This can be used to install the latest versions of all dependencies. Sometimes a repo has a [script to do this](https://github.com/OpenDataServices/cove/blob/master/update_requirements.sh).
+
 virtualenv
 ----------
 
@@ -39,4 +41,4 @@ In order to install multiple version of the same dependency for different projec
 Python Packages
 ---------------
 
-Our libraries like flatten-tool build as Python packages, but none of these are currently on PYPI. Where other code has dependencies on these we use pip's git support to point at a particular commit.
+Our libraries like flatten-tool build as Python packages, but often these are not on PYPI. Where other code has dependencies on these we use pip's git support to point at a particular commit.
