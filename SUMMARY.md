@@ -17,7 +17,7 @@
 * [Tools](tools-generic.md)
     * [Docker](tools/docker.md)
     * [Terminal](tools/terminal.md)
-    * [GitHub](tools/git.md)
+    * [git](tools/git.md)
     * [GitHub](tools/github.md)
     * [Tools of interest](tools/tools-of-interest.md)
 * [Working Off-line](working-off-line.md)
