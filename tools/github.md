@@ -16,7 +16,7 @@ Services organisation to your company email
 
 ## GitHub's protected branches
 
-We use GitHub's protected Branches faeture for the master and live 
+We use GitHub's protected Branches feature for the master and live 
 branches of CoVE
 
 This means it is not possible to push directly to those branches - 
