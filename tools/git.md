@@ -7,6 +7,8 @@ In general each repository has:
 * a `live`  branch which is fast-forward merged to update to the current master when it's ready to go live - this is deployed on the live site
 * feature branches - most of the work should be done on these. In general these should be free of merge commits (rebased onto master instead of merging master in) and squashed (e.g. `rebase -i master`) into usefully sized commits.
 
+When merging from a feature branch into master, the "Create a merge commit" strategy should be used.
+
 More specific information about the branches in a repository should be in the CONTRIBUTING.md file in each repository. Merges should be performed or overseen by the person listed in CONTRIBUTING.md.
 
 ### Issues
