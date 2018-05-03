@@ -6,6 +6,7 @@
     * [Notes about Open Data Services Python Code](code-python.md)
         * [Debugging Python Code](debugging-python-code.md)
     * [Front End Development](front-end-development.md)
+    * [Database](database.md)
     * [Security considerations](security.md)
     * [Deployment](deployment.md)
         * [Page Load Speed](page-load-speed.md)
