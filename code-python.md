@@ -26,6 +26,15 @@ Coding style
 
 Mostly this is PEP8, and the additional suggestions that Flake8 provides. Some projects e.g. Cove are automatically tested with flake8 by Travis.  We have a few exceptions, mostly inherited from the Django project, which are declared in setup.cfg, e.g. https://github.com/OpenDataServices/cove/blob/master/setup.cfg
 
+The one exception to PEP8 is line length, which can be up to 190 characters long.
+
+You should configure Flake8 for that with a ".flake8" configuration file in the project (e.g. https://github.com/open-contracting/ocdsdata/blob/master/.flake8 ):
+
+
+    [flake8]
+    max-line-length = 190
+
+
 Pinned Dependencies
 -------------------
 
