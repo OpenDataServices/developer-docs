@@ -24,16 +24,16 @@ A lot of our software has dependencies in common:
 Coding style
 ------------
 
-Mostly this is PEP8, and the additional suggestions that Flake8 provides. Some projects e.g. Cove are automatically tested with flake8 by Travis.  We have a few exceptions, mostly inherited from the Django project, which are declared in setup.cfg, e.g. https://github.com/OpenDataServices/cove/blob/master/setup.cfg
+Mostly this is PEP8, and the additional suggestions that Flake8 provides.
 
-The one exception to PEP8 is line length, which can be up to 119 characters long.
+Our projects should be automatically tested with flake8 by Travis.
 
-You should configure Flake8 for that with a ".flake8" configuration file in the project (e.g. https://github.com/open-contracting/ocdsdata/blob/master/.flake8 ):
+We have a few exceptions which are listed here:
 
+* Line length - this can be up to 119 characters long. This is inherited from the Django project.
+* W601 - This is inherited from the Django project.
 
-    [flake8]
-    max-line-length = 119
-
+An example setup.cfg is at https://github.com/OpenDataServices/cove/blob/master/setup.cfg but note this includes some project-specific exceptions not listed here.
 
 Pinned Dependencies
 -------------------
