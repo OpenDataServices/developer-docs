@@ -14,8 +14,8 @@ We use plan.io (a hosted Redmine instance) for lots of our communication. The ti
 - For time-tracking and personal work plannning
 
 We have two main kanban boards:
-- The Non-Sprint Work board
-- The Dev Portfolio board
+- The [Non-Sprint Work](meetings/non-sprint.md) board
+- The [Dev Portfolio](meetings/dev-portfolio.md) board
 
 We use GitHub Projects to co-ordinate sprint work with clients. Anything that we do should be recorded either on the non-sprint board or the relevant sprint board.
 
@@ -35,7 +35,7 @@ Daily:
 - 09:30: Whole-company Standup. 15 mins to hear what everyone is up to and to raise impediments.
 
 Weekly:
-- Wednesday 10:00:  [[Non-sprint work planning & Sprint Overview]]
+- Wednesday 10:00:  Non-sprint work planning & Sprint Overview
 - Thursday 10:15: Dev portfolio
 - Friday 09:30: Dev standup + Team Meeting Prep + Show & Tell Prep
 - Friday 10:00: Whole-company team meeting
