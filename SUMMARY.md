@@ -12,6 +12,9 @@
         * [Page Load Speed](page-load-speed.md)
     * [Tests](tests.md)
     * [Contributing](contribute.md)
+* [Collaboration](team-collaboration.md)
+    * [Non-Sprint Work](meetings/non-sprint.md)
+    * [Dev Portfolio](meetings/dev-portfolio.md)
 * Checklists
     * [Merging a pull request](checklists/merging-a-pull-request.md)
     * [Start of a sprint](checklists/start-of-a-sprint.md)
