@@ -13,4 +13,4 @@ So far, this has been just Rob and Ben. Others are welcome, but the purpose of t
 Agenda
 ------
 
-Partipants review the Dev Portfolio board right-to-left. Items in the Current Sprint column reflect the current sprint's work, the In Progress column reflects the work that the team is currently considering in some way (e.g. future sprints, recent sprints, non-sprint work), and the Pipeline column reflects work that may be realised in the future.
+Partipants review the [Dev Portfolio](https://opendataservices.plan.io/projects/portfolio/agile/board) board right-to-left. Items in the Current Sprint column reflect the current sprint's work, the In Progress column reflects the work that the team is currently considering in some way (e.g. future sprints, recent sprints, non-sprint work), and the Pipeline column reflects work that may be realised in the future.
