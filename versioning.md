@@ -30,7 +30,7 @@ following Semantic Versioning. https://semver.org/
 
 ## Changelog
 
-All projects should keep a changelog. A file called CHANGELOG.md should be in the root of the repository.
+All repositories that are versioned using the scheme described on this page should keep a changelog. A file called CHANGELOG.md should be in the root of the repository.
 
 It's format should follow https://keepachangelog.com/en/1.0.0/
 
@@ -63,6 +63,8 @@ This commit should:
 ### Tag a commit
 
 The GitHub web interface should then be used to create a new tag that points to the new commit on the master branch.
+
+(You can also create a tag directly in git if you want.)
 
 The tag should be named "vX.Y.Z".
 
