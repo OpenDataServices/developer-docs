@@ -51,14 +51,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 These steps depend on each other so carry them out in order.
 
-### Commit to master branch
+### Update master branch
 
-A special commit should be made to the master branch.
+A special pull request should be made to the master branch.
 
-This commit should:
+This pull request should have one commit that should:
 
   *  change the version number in setup.py
   *  change the version number and fix any problems with messages for this release in CHANGELOG.md
+
+Merge this pull request to master.
 
 ### Tag a commit
 
