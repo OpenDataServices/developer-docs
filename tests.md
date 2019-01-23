@@ -21,6 +21,18 @@ pytest: helps you write better programs
 a mature full-featured Python testing tool  
 http://pytest.org/latest/  
 
+## Sites hosted on Read The Docs
+
+Always test your branch builds on Read The Docs. Do not assume a successful build on Travis means it will build on Read The Docs.
+
+For this you will need to be an admin in the Read The Docs project.
+
+Enable your branch in https://readthedocs.org/dashboard/PROJECTNAME/versions/
+
+Note that Read The Docs does not always pick up new branches - you may have to go to 
+https://readthedocs.org/projects/PROJECTNAME/builds/ and trigger a new build (on any branch) before new branches will 
+be picked up and appear in the admin page.
+
 ### Tips
 
 General help
