@@ -32,7 +32,7 @@ following Semantic Versioning. https://semver.org/
 
 All repositories that are versioned using the scheme described on this page should keep a changelog. A file called CHANGELOG.md should be in the root of the repository.
 
-It's format should follow https://keepachangelog.com/en/1.0.0/
+Definitions of sections, terms and format can be found at https://keepachangelog.com/en/1.0.0/; read this before adding to a changelog (it's short, don't worry!)
 
 To start a new repository that has no releases, the initial changelog should be:
 
