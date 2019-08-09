@@ -16,8 +16,8 @@ Services organisation to your company email
 
 ## GitHub's protected branches
 
-We use GitHub's protected Branches feature for the master and live 
-branches of CoVE
+We use GitHub's protected Branches feature for the master
+branch of CoVE, and most of our repositories.
 
 This means it is not possible to push directly to those branches - 
 tests must pass on Travis before code can go in. If you try you get:
@@ -27,5 +27,17 @@ tests must pass on Travis before code can go in. If you try you get:
 A 'fastforward' will merge into master commits that have already passed 
 - it's not necessary to use GitHub's merge interfaces.
 
-We intend to set this up for all our live branches, and most of our 
-master branches on our code repositories.
+### Settings
+
+These our are normal settings, but they may be different in special cases.
+
+Turn On the "Require pull request reviews before merging" setting.
+
+Turn On the "Dismiss stale pull request approvals when new commits are pushed" setting. 
+
+(We do this because otherwise someone could get approval, and then add a commit that makes large changes to the work. This protects us from honest mistakes more than malicious activity.)
+
+Turn On the "Require status checks to pass before merging" setting.
+
+Turn On the "Include administrators" setting.
+
