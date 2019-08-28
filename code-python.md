@@ -40,9 +40,11 @@ Pinned Dependencies
 
 We pin all our dependencies (including dependencies of dependencies) to an exact version in requirements.txt. This makes deployment more deterministic and reproducible. It also means that we can use requires.io to track out of date dependencies.
 
-Sometime we create a requirements.in to list the top level dependencies, with only the known version constraints. This can be used to install the latest versions of all dependencies. Sometimes a repo has a [script to do this](https://github.com/OpenDataServices/cove/blob/master/update_requirements.sh).
+Sometime we create a requirements.in to list the top level dependencies, with only the known version constraints. This can be used to install the latest versions of all dependencies. 
 
-The basic procedure to add or update a requirement are:
+Sometimes a repo has a [script to do this](https://github.com/OpenDataServices/cove/blob/master/update_requirements.sh).
+
+If an update script doesn't already exist, the basic procedure to add or update a requirement are:
 
 * Update requirements.in or requirements_dev.in as needed.
 * Delete the old virtual environment, and start and activate a new one. This is needed to make sure we don't have any extra packages installed.
