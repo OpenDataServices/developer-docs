@@ -12,7 +12,7 @@
         * [Page Load Speed](page-load-speed.md)
     * [Tests](tests.md)
     * [Contributing](contribute.md)
-    * [Versioning](versioning.md)
+    * [Versioning and releasing our libraries](versioning.md)
 * [Collaboration](team-collaboration.md)
     * [Non-Sprint Work](meetings/non-sprint.md)
     * [Dev Portfolio](meetings/dev-portfolio.md)

@@ -1,4 +1,4 @@
-# Versioning our libraries
+# Versioning and releasing our libraries
 
 
 ## Which repositories?
@@ -8,6 +8,10 @@ eg https://github.com/OpenDataServices/flatten-tool/releases
 
 For these libraries, we want to version them to make it easier to do this.
 
+Some of our Libraries are:
+
+ *  Flatten-Tool [GitHub](https://github.com/OpenDataServices/flatten-tool) [PyPi](https://pypi.org/project/flattentool/)
+ *  Lib-Cove [GitHub](https://github.com/OpenDataServices/lib-cove) [PyPi](https://pypi.org/project/libcove/)
 
 ## Git, tags and branches
 
@@ -70,7 +74,20 @@ The GitHub web interface should then be used to create a new tag that points to 
 
 The tag should be named "vX.Y.Z".
 
+### Publish to PyPi
 
+Our libraries are usually also published to PyPi.
 
+Build and upload the new version to PyPi:
 
+    python setup.py sdist upload
+
+## Regular Maintenance
+
+You may want to use the check-manifest tool to double check the MANIFEST.in file. https://pypi.org/project/check-manifest/
+
+## OCP
+
+We work on OCP repositories that are also versioned and released as libraries. 
+[See their docs for more](https://ocds-standard-development-handbook.readthedocs.io/en/latest/coding/index.html#python-packages). 
 
