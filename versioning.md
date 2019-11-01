@@ -82,6 +82,8 @@ Build and upload the new version to PyPi:
 
     python setup.py sdist upload
 
+(You may need a [.pypirc file](https://docs.python.org/3.6/distutils/packageindex.html#pypirc) for this to work.)
+
 ## Regular Maintenance
 
 You may want to use the check-manifest tool to double check the MANIFEST.in file. https://pypi.org/project/check-manifest/
