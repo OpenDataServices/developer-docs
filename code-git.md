@@ -41,6 +41,8 @@ This adds a test case to prevent the regression in the blah module loader by loa
 Fixes issue https://github.com/example/issue/123
 ```
 
+### Real world examples
+
 Some real examples:
 
 In Flatten tool, commit 0ed440e33ac084a5d19af8192b77433f9c821e0a is:
@@ -75,6 +77,18 @@ ocdsschema: Upgrade OCDS schema version and move standards site to SSL.
 Standards site is now served by HTTPS - change URLs to that.
 Upgrade Lib-cove-OCDS to 0.7.0
 Update tests to pass under 1.1.4
+```
+
+### Git commit templates
+
+Note that git has a commit template feature that can be configured to present you with a reminder. This needs to be configured by each developer. [To set this up on your machine, see here](https://medium.com/@alex.wasik/create-a-custom-git-commit-template-84468232a459). You can use the template below:
+
+```
+# <module submodule/file/some logical name to make it uniquely identifiable in the codebase>: <Change summary message>
+
+# <Longer message if needed to describe the change>
+
+# <Full URLs: github issues, pull requests if applicable>
 ```
 
 WIP branches and pull requests
