@@ -5,6 +5,7 @@
     * [General approaches to software development](general-approaches.md)
     * [Notes about Open Data Services Python Code](code-python.md)
         * [Debugging Python Code](debugging-python-code.md)
+        * [Git](code-git.md)
     * [Front End Development](front-end-development.md)
     * [Database](database.md)
     * [Security considerations](security.md)
