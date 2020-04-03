@@ -111,3 +111,17 @@ It’s hard to create solid rules that could be automatically applied by a bot, 
 So in that way these could be thought of as guidelines, as there always may be some discussion about the best way to apply these to a particular situation.
 
 But reviewers should feel empowered to push back, if they feel the commits on a pull request could be done better.
+
+Merging a pull request into master
+----------------------------------
+
+In GitHub there are several different options you can select for the merge strategy to use when merging a pull request into master.
+
+We normally use the Merge commits option.
+
+However if: 
+
+* it's a single commit and 
+* there is no extra information or discussion in the pull request or the pull request is linked to in the commit
+
+then it's ok to use the rebase option instead.
