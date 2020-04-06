@@ -1,5 +1,4 @@
-# Versioning and releasing our libraries
-
+# Python Libraries we have written
 
 ## Which repositories?
 
@@ -31,6 +30,7 @@ to be released.
 Whether a new version is a patch release, a minor release or a major release should be decided by 
 following Semantic Versioning. https://semver.org/
 
+[Read our how to guide on this](/howto/release-python-library.md) 
 
 ## Changelog
 
@@ -50,39 +50,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ```
 
-
-## Process for making a new release
-
-These steps depend on each other so carry them out in order.
-
-### Update master branch
-
-A special pull request should be made to the master branch.
-
-This pull request should have one commit that should:
-
-  *  change the version number in setup.py
-  *  change the version number and fix any problems with messages for this release in CHANGELOG.md
-
-Merge this pull request to master.
-
-### Tag a commit
-
-The GitHub web interface should then be used to create a new tag that points to the new commit on the master branch.
-
-(You can also create a tag directly in git if you want.)
-
-The tag should be named "vX.Y.Z".
-
-### Publish to PyPi
-
-Our libraries are usually also published to PyPi.
-
-Build and upload the new version to PyPi:
-
-    python setup.py sdist upload
-
-(You may need a [.pypirc file](https://docs.python.org/3.6/distutils/packageindex.html#pypirc) for this to work.)
 
 ## Regular Maintenance
 
