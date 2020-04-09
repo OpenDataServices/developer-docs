@@ -1,5 +1,17 @@
-Git
-===
+Git and GitHub
+==============
+
+
+Temporary Branches
+------------------
+
+In general having temporary commits on temporary branches is better than using git stash. It's harder to lose your work this way, and they can also be pushed to the server.
+
+Branches or Forks?
+------------------
+
+We tend to work on branches within the repo in the OpenDataServices (or other relevant repository), rather than in personal forks, as this allows us all to take advantage of the same TravisCI setup etc. (Obviously external contributors will generally not have permissions for this, so will use their personal forks instead.).
+
 
 Commit Size
 -----------
@@ -125,3 +137,39 @@ However if:
 * there is no extra information or discussion in the pull request or the pull request is linked to in the commit
 
 then it's ok to use the rebase option instead.
+
+Email in commits
+----------------
+
+Anyone contributing to our GitHubs from the company should use their 
+company email in their commits.
+
+TODO How-to with old content steps?
+
+GitHub's protected branches
+---------------------------
+
+We use GitHub's protected Branches feature for the master
+branch of CoVE, and most of our repositories.
+
+This means it is not possible to push directly to those branches - 
+tests must pass on Travis before code can go in. If you try you get:
+
+    ! [remote rejected] master -> master (protected branch hook declined)
+
+
+GitHub Settings
+---------------
+
+These our are normal settings, but they may be different in special cases.
+
+Turn On the "Require pull request reviews before merging" setting.
+
+Turn On the "Dismiss stale pull request approvals when new commits are pushed" setting. 
+
+(We do this because otherwise someone could get approval, and then add a commit that makes large changes to the work. This protects us from honest mistakes more than malicious activity.)
+
+Turn On the "Require status checks to pass before merging" setting.
+
+Turn On the "Include administrators" setting.
+
