@@ -33,4 +33,7 @@ There are some config files we need.
 
 
 
+[Read our guide on adding Black and isort to an existing Python repository](howto/add-black-isort-existing-repo.md) 
+
+
 
