@@ -124,6 +124,23 @@ So in that way these could be thought of as guidelines, as there always may be s
 
 But reviewers should feel empowered to push back, if they feel the commits on a pull request could be done better.
 
+
+Expectations around merge requests and deploying
+------------------------------------------------
+
+When someone approves a pull request, they should not merge it straight away 
+(unless there is a comment asking them to do that).
+
+It is up to the person who did the work to merge it in and delete any working branches from GitHub.
+
+If that person is unavailable and others need it, they can merge though (unless there is a comment asking them not to).
+
+If this is an app we deploy, the code should then be deployed promptly. 
+It's the person who did the works responsibility to make sure it is deployed (by doing it themselves or asking someone else to).
+
+If this is a library we use, the person doing the work should decide if a new release is needed 
+(is the code needed by a user of the library straight away?), and if so, do one immediately.
+
 Merging a pull request into master
 ----------------------------------
 
