@@ -23,7 +23,7 @@ For example, here's how to do it in setup.py:
 ```
 extras_require_test = ["pytest", "flake8", "isort"]
 
-if sys.version_info[0] >= 3 and sys.version_info[1] >= 6:
+if sys.version_info >= (3, 6):
     extras_require_test.append("black==19.10b0")
 
 ```
