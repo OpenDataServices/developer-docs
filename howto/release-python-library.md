@@ -25,11 +25,21 @@ The tag should be named "vX.Y.Z".
 
 Our libraries are usually also published to PyPi.
 
-Build and upload the new version to PyPi:
+Firstly, you will need to install twine for uploads. This may not be a dev requirement of a project, and you may need to install it yourself:
 
-    python setup.py sdist upload
+    pip3 install twine
 
-(You may need a [.pypirc file](https://docs.python.org/3.6/distutils/packageindex.html#pypirc) for this to work.)
+Build the new version:
+
+    python setup.py sdist
+    
+At this stage you may want to look in "dist" directory, and check the new version by hand.
+
+Upload the new version to PyPi:
+
+    twine upload dist/NAME-VERSION.tar.gz
+
+(You may want a [.pypirc file](https://docs.python.org/3.6/distutils/packageindex.html#pypirc) to avoid typing your password every time.)
 
 
 ## Reference Pages
