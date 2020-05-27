@@ -14,9 +14,15 @@ This how-to guide sets out common procedures and guidance for how to ensure that
 
 It's very common for a piece of work to raise other issues, and for us to have ideas as to what to do next. To avoid scope creep, these should be documented, rather than assuming that they should be done immediately.  
 
-* Any ideas for future improvements should be added as GitHub Issues in the relevant repo
-* If you think that those ideas are important to do relatively soon, add Trello cards for each one, and start to draft a Definition Of Ready
-* Bugs should be fixed as part of the work
+First, review your work to ascertain what changes have been made
+Then, review any GitHub issues that you've already opened
+Then, fix any issues that are clearly bugs
+Then, ensure that GitHub issues have been raised for any issues that you're aware of, and that they stand as independent issues with sufficient detail for them to be left
+Then, add GitHub issues for any further work that you think might be good to do
+Then, add any ideas that you think are important to do soon to the Ideas & Reports column on Trello, with a draft Definition Of Ready
+Finally, check the check-box on the Trello card that you're working on to confirm that you've done this
+
+Notes:
 * Unforeseen shortcomings are a judgement call; comment on the relevant GitHub issue and directly contact whoever is affected to ask
 
 ## Any functionality changes are appropriately documented
@@ -24,23 +30,39 @@ It's very common for a piece of work to raise other issues, and for us to have i
 First, ascertain where the functionality is documented. This might include ReadTheDocs sites, OCP or ODSC-internal documentation, and code comments. 
 Then, update to reflect any changes
 Then, consider whether the person who asked for the work would have been able to find the functionality, if it had existed. For example, if the requester was following a procedure, has the procedure been amended?
+Finally, check the check-box on the Trello card that you're working on to confirm that you've done this 
 
 ## The code meets any applicable quality standards (tests, comments, etc)
 
-In most cases, "applicable" means "in line with, or a slight improvement over, other parts of the code in the same repo". 
+First, review other code in the same repo to ascertain conventions
+Then, review documentation - such as the Standard Development Handbook, this developer documentation and the documentation for the repo you're working on to ascertain any further requirements 
+Then, review your code to check that it's to the same standard, and update it if necessary
+Finally, check the check-box on the Trello card that you're working on to confirm that you've done this
+
+Notes:
+* In most cases, "applicable" means "in line with, or a slight improvement over, other parts of the code in the same repo". 
+* If the change you're making doesn't seem to need this, you can skip this step, and note that on the Trello card
 
 ## Any functionality changes either have been deployed/released, or a deploy/release has been scheduled
 
-If the functionality change is to a live web application, then it should either be accessible on the Web, or a date should be given for when the deploy will take place. If the change is to software that is downloaded by users, then it should have been released.
+First, ascertain what "deployed" or "released" means for the code you're working on, and how to go about making that happen
+Then, either:
+* Schedule a release/deploy for a future date, and comment on the Trello card to say when it is
+* Carry out a release/deploy
+Finally, check the check-box on the Trello card that you're working on to confirm that you've done this
+
+Notes:
+* It's ok to deploy or release small changes; there's often limited benefit to bundling changes together
 
 ## If appropriate, the solution has been approved by the original reporter / requester - especially if it's someone who works for ODSC or OCP
 
 "Approval" in this context is to say that the change that has been made meets the need that was set out to be met, and that everyone who needs to be aware of it, is. Sometimes that requires testing, and other times just acknowledgement of notification that a change has been made. 
 
-Additional needs that emerge should be documented as additional GitHub Issues & Trello cards.
+Additional needs that emerge from the approval process should be documented as additional GitHub Issues & Trello cards.
 
 In order to seek approval from ODSC Analyst(s):
 First, go to the OCP CRM and open a new ticket in the OCDS Technical Development project
+Then, write a title that will read well in an email notification, specifying which products have changed, introducing the change that's been made, and summarising the action (if any) required. 
 Then, write the body of the ticket containing:
 * A link to the relevant Trello card 
 * A clear description of the change that has been made
@@ -51,10 +73,13 @@ Then, write the body of the ticket containing:
 Then, assign the ticket to either the individual analyst who requested the change, or to Everyone (excluding non-OCDS ODS) group. If you want to ask a specific group of people, add them as Watchers.  
 Then, update the Trello card with a link to the CRM ticket, and a summary of what's been asked for. 
 
-Note that a new ticket should be opened for each change, even if you're opening several at once, so that each can be handled in its own way. 
+Notes:
+* In general, a new ticket should be opened for each change, even if you're opening several at once, so that each can be handled in its own way. 
 
 ### Example Ticket - Testing Required
 
+#### Kingfisher Views: Foos now Bar - testing help please!
+ 
 Hi Michelle,
 
 I've been working on the change to Kingfisher Views that you asked for in https://trello.com/c/EoAipkKH/999-make-views-awesomer . I've changed the Foo so that it Bars in the way that you asked for, and I've tested using the data that you supplied. 
@@ -70,6 +95,8 @@ Thanks!
 Abdul
 
 ### Example Ticket - Notification 
+
+#### Kingfisher Views: Foos now Bar - notification
 
 Hi Helpdesks! 
 
