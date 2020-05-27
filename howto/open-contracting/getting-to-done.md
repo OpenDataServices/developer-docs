@@ -8,7 +8,7 @@ The OCDS Definition Of Done has 5 requirements:
 * Any functionality changes either have been deployed/released, or a deploy/release has been scheduled 
 * If appropriate, the solution has been approved by the original reporter / requester - especially if it's someone who works for ODSC or OCP
 
-This how-to guide sets out common procedures and guidance for how to ensure that each of these 5 requirements are met. 
+This how-to guide sets out common procedures and guidance for how to ensure that each of these 5 requirements are met. These procedures aren't mandatory, but rather embody some things we've learned and are a move towards a standard way of doing things, to avoid having to re-invent the wheel.  
 
 ## Any issues or further work resulting from it is documented
 
