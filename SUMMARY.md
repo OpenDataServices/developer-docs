@@ -3,6 +3,7 @@
 * How To Guides
     * [Release a Python Library](/howto/release-python-library.md)
     * [Add Black and isort to an existing Python repository](/howto/add-black-isort-existing-repo.md)
+    * [Get work to Done in OCDS](/howto/open-contracting/getting-to-done.md)
 * Reference
     * [Collaboration](/reference/collaboration.md)
     * [Git and GitHub](/reference/git-and-github.md)
