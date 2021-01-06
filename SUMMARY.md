@@ -16,5 +16,7 @@
         * [Naming Scheme](/databases/naming-scheme.md)
     * [Deployment](/reference/deployment.md)
     * [Software Licenses](/software-licenses.md)
+    * [Lifecycle Terminology](/lifecycle-terminology.md)
+    * [Dev Activity Terminology](dev-activity-terminology.md)
 * [Other Documentation](/other-documentation.md)
 * [These Docs](/CONTRIBUTING.md)
