@@ -31,13 +31,13 @@ Firstly, you will need to install twine for uploads. This may not be a dev requi
 
 Build the new version:
 
-    python setup.py sdist
+    python setup.py sdist bdist_wheel
     
 At this stage you may want to look in "dist" directory, and check the new version by hand.
 
 Upload the new version to PyPi:
 
-    twine upload dist/NAME-VERSION.tar.gz
+    twine upload dist/PACKAGE-NAME-VERSION.tar.gz dist/PACKAGE_NAME-VERSION-py3-none-any.whl
 
 (You may want a [.pypirc file](https://docs.python.org/3.6/distutils/packageindex.html#pypirc) to avoid typing your password every time.)
 
