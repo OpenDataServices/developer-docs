@@ -31,8 +31,11 @@ Firstly, you will need to install twine for uploads. This may not be a dev requi
 
 Build the new version:
 
+    python setup.py clean --all
     python setup.py sdist bdist_wheel
-    
+
+(It's important to clean before building, as if you don't sometimes files from previous builds that have now been deleted can still end up in the new builds!)
+
 At this stage you may want to look in "dist" directory, and check the new version by hand.
 
 Upload the new version to PyPi:
